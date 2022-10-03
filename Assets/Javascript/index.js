@@ -22,7 +22,7 @@ function renderBackgroundColor() {
   let timeEL = parseInt(id.getAttribute("id")); // This is not working, how to get the element ID and parse it as a number
   console.log(timeEL);
 
-  for (let i = 0; i < timeBlockEL.length; i++) {
+  For each statement{
     if (timeEL < currentTime) {
       timeBlockEL.style.backgroundColor = "#B2BABB"; //Green
     } else if (timeEL === currentTime) {
